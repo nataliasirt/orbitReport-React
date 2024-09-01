@@ -1,4 +1,4 @@
-h1,
+header,
 p {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-align: center;
@@ -15,6 +15,7 @@ button {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
+  
 }
 
 .flex-container {
@@ -31,7 +32,7 @@ table {
 
 th {
   border-bottom: 2px solid #354a5f;
-  padding: 8px;
+  padding: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -48,7 +49,9 @@ tr:hover {
 
 td {
   text-align: center;
-  padding: 8px;
+  padding: 12px;
+  font-size: 16px;
+
 }
 
 header {

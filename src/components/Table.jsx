@@ -1,3 +1,5 @@
+import './styling.css';
+
 const Table = ({ sat }) => {
   const satData = sat.map((data) => {
     const operational = data.operational ? "active" : "inactive";
