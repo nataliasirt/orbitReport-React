@@ -12,7 +12,6 @@ const Table = ({ sat }) => {
             </tr>
         </thead>
         <tbody>
-        //will use the map function to render the data based on which button a user selects
         {sat.map((data) => (
            <tr key= {data.id}>
             <td>{data.name}</td> 
